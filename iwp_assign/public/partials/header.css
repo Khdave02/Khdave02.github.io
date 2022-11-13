@@ -1,0 +1,48 @@
+@import url('https://fonts.cdnfonts.com/css/buffalo');
+.header-container {
+    background-color: black;
+    height: 100px;
+    width: 100vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position:fixed;
+    overflow: hidden;
+    top:0;
+}
+
+
+#website-details-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-grow: 1;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#logo {
+    height: 100px;
+    width:auto;
+}
+
+.item {
+    color:rgb(0, 200, 255);
+    margin-right: 30px;
+    text-decoration: none;
+    font-family: ;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#website-name {
+    font-size: 3.5em;
+    flex-grow: 1;
+    color:rgb(0, 200, 255);
+    font-family: 'buffalo', sans-serif;
+}
+
+.spacer {
+    height: 100px;
+}

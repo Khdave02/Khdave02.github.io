@@ -1,0 +1,24 @@
+
+<% include ./partials/header %>
+
+
+<link rel="stylesheet" href="/views/new.css">
+
+	<div id = "form">
+	<h3>SIGN IN</h3>
+	  <form action="/products" method="POST">
+		<label >Name</label>
+		<input type="text"  name="product[title]" placeholder="Name" required="">
+	
+		<label>Password</label>
+		<input type="text" name="product[image]" placeholder="Image" required="">
+
+		<div>
+			<button class="button"><a href="/products/new">Cancel</a></button>
+			<button class="button" type="submit">Submit</button>
+		</div>
+		
+		<!-- <input type="submit" value="Submit"> -->
+	  </form>
+	</div>
+	

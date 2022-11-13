@@ -1,0 +1,58 @@
+.main-container {
+    margin-right: 300px;
+    margin-left:300px;
+    margin-top:20px;
+    border: 2px gray dotted;
+}
+
+.item-list{
+    border-bottom: 2px gray dotted;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    padding:-10px;
+}
+
+.image-container {
+    width: 100%;
+    height: auto;
+}
+
+.image {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+}
+
+.review-title {
+    font-size: 4em;
+}
+
+.read-more-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 20px;
+  }
+
+.read-more-button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+.read-more-button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

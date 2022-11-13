@@ -1,0 +1,31 @@
+<% include ./partials/header %>
+
+<div class="main-container">
+	<link rel="stylesheet" href="/views/index.css">
+	<h1>RESTful product App</h1>
+	<h5>Created by <b>iwp_assn</b></h5>
+	<div>
+		<div class="items-list">
+			<% products.forEach((product)=>{ %>
+				<div class="item">
+					<div class="image-container">
+						<img class= image src="<%= product.image %>">
+					</div>
+					<div >
+						<a href="/products/<%= product._id %>"><%= product.title %></a>     
+						<div>
+							<span><%= product.created.toDateString() %></span>
+						</div>
+						<div >
+							<p><%= product.body.substring(0, 75) %>...</p>
+						</div>
+						<div>
+							<button id="read-more" class="read-more-button"><a href="/products/<%= product._id %>">Read More</a></button>
+						</div>
+					</div>
+				</div>
+			<% }) %>
+		</div>
+	</div>
+</div>
+<% include ./partials/footer %>

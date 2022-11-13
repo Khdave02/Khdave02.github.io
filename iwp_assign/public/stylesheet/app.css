@@ -1,0 +1,27 @@
+i.play.icon{
+	font-size: 2em;
+	color:cyan;
+}
+#logo{
+	font-size: 2em;
+}
+.container.main{
+	margin-top: 7.0em;
+}
+#delete{
+	display: inline;
+}
+#edit_header{
+	color:red;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+a {
+	text-decoration: none;
+	color:white;
+}
